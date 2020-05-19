@@ -13,7 +13,7 @@
 | [sum][]         | `sum([1, 2, 3.5])`                                         |
 | [sumSimple][]   | `sumSimple([1, 2, 3.5])`                                   |
 | [quantile][]    | `quantile([3, 6, 7, 8, 8], 0.25)`                          |
-| quantileRank    | N/A                                                        |
+| quantileRank    | TODO                                                       |
 | [product][]     | `product([1, 2, 3, 5])`                                    |
 
 [min]: ./src/min.ts
@@ -30,7 +30,7 @@
 | [minSorted][]        | `minSorted([-100, -10, 1, 2, 5])`                     |
 | [maxSorted][]        | `maxSorted([5, 2, 1, -10, -100])`                     |
 | [quantileSorted][]   | `quantileSorted([3, 6, 9, 10, 12], 0.4)`              |
-| quantileRankSorted   | N/A                                                   |
+| quantileRankSorted   | TODO                                                  |
 
 [minSorted]: ./src/min_sorted.ts
 [maxSorted]: ./src/max_sorted.ts
@@ -44,13 +44,13 @@
 | [addToMean][]        | `addToMean(14, 5, 53)`                                |
 | [mode][]             | `mode([0, 0, 1])`                                     |
 | [modeSorted][]       | `modeSorted([0, 0, 1])`                               |
-| modeFast             | N/A                                                   |
-| median               | N/A                                                   |
-| medianSorted         | N/A                                                   |
+| modeFast             | TODO                                                  |
+| median               | TODO                                                  |
+| medianSorted         | TODO                                                  |
 | [harmonicMean][]     | `harmonicMean([2, 3])`                                |
 | [geometricMean][]    | `geometricMean([1.80, 1.166666, 1.428571])`           |
 | [rootMeanSquare][]   | `rootMeanSquare([-1, 1, -1, 1])`                      |
-| sampleSkewness       | N/A                                                   |
+| sampleSkewness       | TODO                                                  |
 
 [mean]: ./src/mean.ts
 [addToMean]: ./src/add_to_mean.ts
@@ -68,8 +68,8 @@
 | [sampleVariance][]            | `sampleVariance([1, 2, 3, 4, 5])`            |
 | [standardDeviation][]         | `standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])`|
 | [sampleStandardDeviation][]   | `sampleStandardDeviation([2, 4, 4, 5, 7, 9])`|
-| medianAbsoluteDeviation       | N/A                                          |
-| interquartileRange            | N/A                                          |
+| medianAbsoluteDeviation       | TODO                                         |
+| interquartileRange            | TODO                                         |
 | [sumNthPowerDeviations][]     | `sumNthPowerDeviations([0, 1], 2)`           |
 | [zScore][]                    | `zScore(78, 80, 5)`                          |
 
