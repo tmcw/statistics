@@ -1,4 +1,4 @@
-import { mean } from "../mean.ts";
+import { mean } from "./mean.ts";
 
 /**
  * The sum of deviations to the Nth power.
