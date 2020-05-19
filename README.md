@@ -26,10 +26,13 @@
 
 | Function             | Example                                               |
 |----------------------|-------------------------------------------------------|
-| minSorted            | N/A                                                   |
-| maxSorted            | N/A                                                   |
+| [minSorted][]        | `minSorted([-100, -10, 1, 2, 5])`                     |
+| [maxSorted][]        | `maxSorted([5, 2, 1, -10, -100])`                     |
 | quantileSorted       | N/A                                                   |
 | quantileRankSorted   | N/A                                                   |
+
+[minSorted]: ./src/min_sorted.ts
+[maxSorted]: ./src/max_sorted.ts
 
 ### Measures of central tendency
 
