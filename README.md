@@ -28,11 +28,12 @@
 |----------------------|-------------------------------------------------------|
 | [minSorted][]        | `minSorted([-100, -10, 1, 2, 5])`                     |
 | [maxSorted][]        | `maxSorted([5, 2, 1, -10, -100])`                     |
-| quantileSorted       | N/A                                                   |
+| [quantileSorted][]   | `(quantileSorted([3, 6, 9, 10, 12], 0.4)`             |
 | quantileRankSorted   | N/A                                                   |
 
 [minSorted]: ./src/min_sorted.ts
 [maxSorted]: ./src/max_sorted.ts
+[quantileSorted]: ./src/quantile_sorted.ts
 
 ### Measures of central tendency
 
