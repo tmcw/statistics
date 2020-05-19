@@ -58,7 +58,7 @@
 | Function                  | Example                                          |
 |---------------------------|--------------------------------------------------|
 | [variance][]              | `variance([1, 2, 3, 4, 5, 6])`                   |
-| sampleVariance            | N/A                                              |
+| [sampleVariance][]        | `sampleVariance([1, 2, 3, 4, 5])`                |
 | standardDeviation         | N/A                                              |
 | sampleStandardDeviation   | N/A                                              |
 | medianAbsoluteDeviation   | N/A                                              |
@@ -67,3 +67,4 @@
 | zScore                    | N/A                                              |
 
 [variance]: ./src/variance.ts
+[sampleVariance]: ./src/sample_variance.ts
