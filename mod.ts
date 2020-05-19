@@ -11,6 +11,7 @@ export * from "./src/mode.ts";
 export * from "./src/mode_sorted.ts";
 export * from "./src/harmonic_mean.ts";
 export * from "./src/geometric_mean.ts";
+export * from "./src/root_mean_square.ts";
 export * from "./src/variance.ts";
 export * from "./src/sample_variance.ts";
 export * from "./src/standard_deviation.ts";

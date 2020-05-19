@@ -36,19 +36,19 @@
 
 ### Measures of central tendency
 
-| Function            | Example                                                |
-|---------------------|--------------------------------------------------------|
-| [mean][]            | `mean([-1, 0, 1, 2, 3, 4])`                            |
-| [addToMean][]       | `addToMean(14, 5, 53)`                                 |
-| [mode][]            | `mode([0, 0, 1])`                                      |
-| [modeSorted][]      | `modeSorted([0, 0, 1])`                                |
-| modeFast            | N/A                                                    |
-| median              | N/A                                                    |
-| medianSorted        | N/A                                                    |
-| [harmonicMean][]    | `harmonicMean([2, 3])`                                 |
-| [geometricMean][]   | `geometricMean([1.80, 1.166666, 1.428571])`            |
-| rootMeanSquare      | N/A                                                    |
-| sampleSkewness      | N/A                                                    |
+| Function             | Example                                               |
+|----------------------|-------------------------------------------------------|
+| [mean][]             | `mean([-1, 0, 1, 2, 3, 4])`                           |
+| [addToMean][]        | `addToMean(14, 5, 53)`                                |
+| [mode][]             | `mode([0, 0, 1])`                                     |
+| [modeSorted][]       | `modeSorted([0, 0, 1])`                               |
+| modeFast             | N/A                                                   |
+| median               | N/A                                                   |
+| medianSorted         | N/A                                                   |
+| [harmonicMean][]     | `harmonicMean([2, 3])`                                |
+| [geometricMean][]    | `geometricMean([1.80, 1.166666, 1.428571])`           |
+| [rootMeanSquare][]   | `rootMeanSquare([-1, 1, -1, 1])`                      |
+| sampleSkewness       | N/A                                                   |
 
 [mean]: ./src/mean.ts
 [addToMean]: ./src/add_to_mean.ts
@@ -56,6 +56,7 @@
 [modeSorted]: ./src/mode_sorted.ts
 [harmonicMean]: ./src/harmonic_mean.ts
 [geometricMean]: ./src/geometric_mean.ts
+[rootMeanSquare]: ./src/root_mean_square.ts
 
 ### Measures of dispersion
 
