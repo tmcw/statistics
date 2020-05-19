@@ -1,4 +1,4 @@
-import { sumNthPowerDeviations } from "./utils/sum_nth_power_deviations.ts";
+import { sumNthPowerDeviations } from "./sum_nth_power_deviations.ts";
 
 /**
  * The [sample variance](https://en.wikipedia.org/wiki/Variance#Sample_variance)

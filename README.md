@@ -67,11 +67,12 @@
 | [sampleStandardDeviation][]   | `sampleStandardDeviation([2, 4, 4, 5, 7, 9])`|
 | medianAbsoluteDeviation       | N/A                                          |
 | interquartileRange            | N/A                                          |
-| sumNthPowerDeviations         | N/A                                          |
+| [sumNthPowerDeviations][]     | `sumNthPowerDeviations([0, 1], 2)`           |
 | [zScore][]                    | `zScore(78, 80, 5)`                          |
 
 [variance]: ./src/variance.ts
 [sampleVariance]: ./src/sample_variance.ts
 [standardDeviation]: ./src/standard_deviation.ts
 [sampleStandardDeviation]: ./src/sample_standard_deviation.ts
+[sumNthPowerDeviations]: ./src/sum_nth_power_deviations.ts
 [zScore]: ./src/z_score.ts

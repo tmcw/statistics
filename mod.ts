@@ -15,4 +15,5 @@ export * from "./src/variance.ts";
 export * from "./src/sample_variance.ts";
 export * from "./src/standard_deviation.ts";
 export * from "./src/sample_standard_deviation.ts";
+export * from "./src/sum_nth_power_deviations.ts";
 export * from "./src/z_score.ts";
