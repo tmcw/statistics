@@ -12,7 +12,7 @@
 export function product(x: number[]): number {
   let value = 1;
   for (let i = 0; i < x.length; i++) {
-      value *= x[i];
+    value *= x[i];
   }
 
   return value;

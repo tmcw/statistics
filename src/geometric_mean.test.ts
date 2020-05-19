@@ -1,7 +1,9 @@
 import { assertEquals, assertThrows } from 'https://deno.land/std/testing/asserts.ts';
 import { geometricMean } from "./geometric_mean.ts";
 
-Deno.test("geometricMean", () => {
+const { test } = Deno;
+
+test("geometricMean", () => {
   assertEquals(geometricMean([1.80, 1.166666, 1.428571]).toFixed(2), "1.44");
 
   assertThrows(

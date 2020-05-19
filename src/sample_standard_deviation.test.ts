@@ -1,7 +1,9 @@
 import { assertEquals, assertThrows } from 'https://deno.land/std/testing/asserts.ts';
 import { sampleStandardDeviation } from "./sample_standard_deviation.ts";
 
-Deno.test("sampleStandardDeviation", () => {
+const { test } = Deno;
+
+test("sampleStandardDeviation", () => {
   assertEquals(sampleStandardDeviation([2, 4, 4, 4, 5, 5, 7, 9]), 2.138089935299395);
 
   assertThrows(

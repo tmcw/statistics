@@ -1,7 +1,9 @@
 import { assertEquals, assertThrows } from 'https://deno.land/std/testing/asserts.ts';
 import { rootMeanSquare } from "./root_mean_square.ts";
 
-Deno.test("rootMeanSquare", () => {
+const { test } = Deno;
+
+test("rootMeanSquare", () => {
   assertEquals(rootMeanSquare([-1, 1, -1, 1]), 1);
   assertEquals(rootMeanSquare([1, 2, 3, 4]).toFixed(2), "2.74");
 
