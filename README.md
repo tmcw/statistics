@@ -66,4 +66,4 @@
 | sumNthPowerDeviations     | N/A                                              |
 | zScore                    | N/A                                              |
 
-[mean]: ./src/variance.ts
+[variance]: ./src/variance.ts
