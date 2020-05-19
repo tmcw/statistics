@@ -61,7 +61,7 @@
 |---------------------------|--------------------------------------------------|
 | [variance][]              | `variance([1, 2, 3, 4, 5, 6])`                   |
 | [sampleVariance][]        | `sampleVariance([1, 2, 3, 4, 5])`                |
-| standardDeviation         | N/A                                              |
+| [standardDeviation][]     | `standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])`    |
 | sampleStandardDeviation   | N/A                                              |
 | medianAbsoluteDeviation   | N/A                                              |
 | interquartileRange        | N/A                                              |
@@ -70,3 +70,4 @@
 
 [variance]: ./src/variance.ts
 [sampleVariance]: ./src/sample_variance.ts
+[standardDeviation]: ./src/standard_deviation.ts
