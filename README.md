@@ -36,7 +36,7 @@
 | Function         | Example                                                   |
 |------------------|-----------------------------------------------------------|
 | [mean][]         | `mean([-1, 0, 1, 2, 3, 4])`                               |
-| addToMean        | N/A                                                       |
+| [addToMean][]    | `addToMean(14, 5, 53)`                                    |
 | mode             | N/A                                                       |
 | modeSorted       | N/A                                                       |
 | modeFast         | N/A                                                       |
@@ -48,6 +48,7 @@
 | sampleSkewness   | N/A                                                       |
 
 [mean]: ./src/mean.ts
+[addToMean]: ./src/add_to_mean.ts
 
 ### Measures of dispersion
 
