@@ -4,5 +4,7 @@ export * from "./src/sum.ts";
 export * from "./src/sum_simple.ts";
 export * from "./src/product.ts";
 export * from "./src/min_sorted.ts";
+export * from "./src/max_sorted.ts";
 export * from "./src/mean.ts";
 export * from "./src/add_to_mean.ts";
+export * from "./src/variance.ts";

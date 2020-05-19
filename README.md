@@ -57,7 +57,7 @@
 
 | Function                  | Example                                          |
 |---------------------------|--------------------------------------------------|
-| variance                  | N/A                                              |
+| [variance][]              | `variance([1, 2, 3, 4, 5, 6])`                   |
 | sampleVariance            | N/A                                              |
 | standardDeviation         | N/A                                              |
 | sampleStandardDeviation   | N/A                                              |
@@ -65,3 +65,5 @@
 | interquartileRange        | N/A                                              |
 | sumNthPowerDeviations     | N/A                                              |
 | zScore                    | N/A                                              |
+
+[mean]: ./src/variance.ts
