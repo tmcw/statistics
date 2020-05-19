@@ -7,5 +7,7 @@ export * from "./src/min_sorted.ts";
 export * from "./src/max_sorted.ts";
 export * from "./src/mean.ts";
 export * from "./src/add_to_mean.ts";
+export * from "./src/mode.ts";
+export * from "./src/mode_sorted.ts";
 export * from "./src/variance.ts";
 export * from "./src/sample_variance.ts";

@@ -18,18 +18,18 @@ import { sumNthPowerDeviations } from "./utils/sum_nth_power_deviations.ts";
  * sampleVariance([1, 2, 3, 4, 5]); // => 2.5
  */
 export function sampleVariance(x: number[]): number {
-    // The variance of no numbers is null
-    if (x.length < 2) {
-        throw new Error("sampleVariance requires at least two data points");
-    }
+  // The variance of no numbers is null
+  if (x.length < 2) {
+    throw new Error("sampleVariance requires at least two data points");
+  }
 
-    const sumSquaredDeviationsValue = sumNthPowerDeviations(x, 2);
+  const sumSquaredDeviationsValue = sumNthPowerDeviations(x, 2);
 
-    // this is Bessels' Correction: an adjustment made to sample statistics
-    // that allows for the reduced degree of freedom entailed in calculating
-    // values from samples rather than complete populations.
-    const besselsCorrection = x.length - 1;
+  // this is Bessels' Correction: an adjustment made to sample statistics
+  // that allows for the reduced degree of freedom entailed in calculating
+  // values from samples rather than complete populations.
+  const besselsCorrection = x.length - 1;
 
-    // Find the mean value of that list
-    return sumSquaredDeviationsValue / besselsCorrection;
+  // Find the mean value of that list
+  return sumSquaredDeviationsValue / besselsCorrection;
 }

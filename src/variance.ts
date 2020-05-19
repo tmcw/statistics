@@ -15,11 +15,11 @@ import { sumNthPowerDeviations } from "./utils/sum_nth_power_deviations.ts";
  * variance([1, 2, 3, 4, 5, 6]); // => 2.9166666666666665
  */
 export function variance(x: number[]): number {
-    if (!x.length) {
-        throw new Error("variance requires at least one data point");
-    }
+  if (!x.length) {
+    throw new Error("variance requires at least one data point");
+  }
 
-    // Find the mean of squared deviations between the
-    // mean value and each value.
-    return sumNthPowerDeviations(x, 2) / x.length;
+  // Find the mean of squared deviations between the
+  // mean value and each value.
+  return sumNthPowerDeviations(x, 2) / x.length;
 }

@@ -40,8 +40,8 @@
 |------------------|-----------------------------------------------------------|
 | [mean][]         | `mean([-1, 0, 1, 2, 3, 4])`                               |
 | [addToMean][]    | `addToMean(14, 5, 53)`                                    |
-| mode             | N/A                                                       |
-| modeSorted       | N/A                                                       |
+| [mode][]         | `mode([0, 0, 1])`                                         |
+| [modeSorted][]   | `modeSorted([0, 0, 1])`                                   |
 | modeFast         | N/A                                                       |
 | median           | N/A                                                       |
 | medianSorted     | N/A                                                       |
@@ -52,6 +52,8 @@
 
 [mean]: ./src/mean.ts
 [addToMean]: ./src/add_to_mean.ts
+[mode]: ./src/mode.ts
+[modeSorted]: ./src/mode_sorted.ts
 
 ### Measures of dispersion
 

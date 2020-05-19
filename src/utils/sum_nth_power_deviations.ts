@@ -16,24 +16,24 @@ import { mean } from "../mean.ts";
  * sumNthPowerDeviations(input, 2) / input.length;
  */
 export function sumNthPowerDeviations(x: number[], n: number): number {
-    const meanValue = mean(x);
-    let sum = 0;
-    let tempValue;
-    let i;
+  const meanValue = mean(x);
+  let sum = 0;
+  let tempValue;
+  let i;
 
-    // This is an optimization: when n is 2 (we're computing a number squared),
-    // multiplying the number by itself is significantly faster than using
-    // the Math.pow method.
-    if (n === 2) {
-        for (i = 0; i < x.length; i++) {
-            tempValue = x[i] - meanValue;
-            sum += tempValue * tempValue;
-        }
-    } else {
-        for (i = 0; i < x.length; i++) {
-            sum += Math.pow(x[i] - meanValue, n);
-        }
+  // This is an optimization: when n is 2 (we're computing a number squared),
+  // multiplying the number by itself is significantly faster than using
+  // the Math.pow method.
+  if (n === 2) {
+    for (i = 0; i < x.length; i++) {
+      tempValue = x[i] - meanValue;
+      sum += tempValue * tempValue;
     }
+  } else {
+    for (i = 0; i < x.length; i++) {
+      sum += Math.pow(x[i] - meanValue, n);
+    }
+  }
 
-    return sum;
+  return sum;
 }
