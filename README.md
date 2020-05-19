@@ -57,17 +57,18 @@
 
 ### Measures of dispersion
 
-| Function                  | Example                                          |
-|---------------------------|--------------------------------------------------|
-| [variance][]              | `variance([1, 2, 3, 4, 5, 6])`                   |
-| [sampleVariance][]        | `sampleVariance([1, 2, 3, 4, 5])`                |
-| [standardDeviation][]     | `standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])`    |
-| sampleStandardDeviation   | N/A                                              |
-| medianAbsoluteDeviation   | N/A                                              |
-| interquartileRange        | N/A                                              |
-| sumNthPowerDeviations     | N/A                                              |
-| zScore                    | N/A                                              |
+| Function                      | Example                                      |
+|-------------------------------|----------------------------------------------|
+| [variance][]                  | `variance([1, 2, 3, 4, 5, 6])`               |
+| [sampleVariance][]            | `sampleVariance([1, 2, 3, 4, 5])`            |
+| [standardDeviation][]         | `standardDeviation([2, 4, 4, 4, 5, 5, 7, 9])`|
+| [sampleStandardDeviation][]   | `sampleStandardDeviation([2, 4, 4, 5, 7, 9])`|
+| medianAbsoluteDeviation       | N/A                                          |
+| interquartileRange            | N/A                                          |
+| sumNthPowerDeviations         | N/A                                          |
+| zScore                        | N/A                                          |
 
 [variance]: ./src/variance.ts
 [sampleVariance]: ./src/sample_variance.ts
 [standardDeviation]: ./src/standard_deviation.ts
+[sampleStandardDeviation]: ./src/sample_standard_deviation.ts
