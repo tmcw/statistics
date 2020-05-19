@@ -2,6 +2,7 @@ export * from "./src/min.ts";
 export * from "./src/max.ts";
 export * from "./src/sum.ts";
 export * from "./src/sum_simple.ts";
+export * from "./src/quantile.ts";
 export * from "./src/product.ts";
 export * from "./src/min_sorted.ts";
 export * from "./src/max_sorted.ts";

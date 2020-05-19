@@ -12,7 +12,7 @@
 | [max][]         | `max([1, 2, 3])`                                           |
 | [sum][]         | `sum([1, 2, 3.5])`                                         |
 | [sumSimple][]   | `sumSimple([1, 2, 3.5])`                                   |
-| quantile        | N/A                                                        |
+| [quantile][]    | `quantile([3, 6, 7, 8, 8], 0.25)`                          |
 | quantileRank    | N/A                                                        |
 | [product][]     | `product([1, 2, 3, 5])`                                    |
 
@@ -20,6 +20,7 @@
 [max]: ./src/max.ts
 [sum]: ./src/sum.ts
 [sumSimple]: ./src/sum_simple.ts
+[quantile]: ./src/quantile.ts
 [product]: ./src/product.ts
 
 ### Sorted basic descriptive statistics
