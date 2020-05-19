@@ -68,9 +68,10 @@
 | medianAbsoluteDeviation       | N/A                                          |
 | interquartileRange            | N/A                                          |
 | sumNthPowerDeviations         | N/A                                          |
-| zScore                        | N/A                                          |
+| [zScore][]                    | `zScore(78, 80, 5)`                          |
 
 [variance]: ./src/variance.ts
 [sampleVariance]: ./src/sample_variance.ts
 [standardDeviation]: ./src/standard_deviation.ts
 [sampleStandardDeviation]: ./src/sample_standard_deviation.ts
+[zScore]: ./src/z_score.ts
