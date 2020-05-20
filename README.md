@@ -1,6 +1,6 @@
 # Deno basic statistics module.
 
-[simple-statistics](https://github.com/tmcw/simple-statistics) for Deno.
+> This package started as [simple-statistics](https://github.com/tmcw/simple-statistics) fork. The Roadmap will be more likely basic statistics functions and nonparametric tests from [nemene](https://github.com/ergenekonyigit/nemene).
 
 ## Functions and examples
 
